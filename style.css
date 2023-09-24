@@ -1,0 +1,175 @@
+/* font-family: 'Caveat', cursive;
+font-family: 'Libre Baskerville', serif;
+font-family: 'Sacramento', cursive; */
+body{
+    width: 100%;
+}
+*{
+    margin: 0;
+    text-align: center;
+    padding: 0;
+}
+p{
+    font-size: 1.2rem;
+}
+h2{
+    font-size: 2rem;
+}
+.top-container{
+    text-align: center;
+    background-image: url("./images/header.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.9;
+    height: 100vh;
+    /* width: 100vh; */
+}
+.title{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 33em;
+    color: white;
+    
+}
+.title h1{
+    font-family: 'Sacramento', cursive;
+    font-size: 5em;
+    
+}
+.pro{
+    text-decoration: underline;
+}
+.middle-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 40rem;
+    margin-bottom: 2rem;
+}
+img.profile-image {
+    height: 13rem;
+    width: 13rem;
+    border-radius: 167px;
+    margin-bottom:3rem;
+    margin-top: 0;
+   
+}
+.middle-container h2{
+    margin-bottom: 1.5rem;
+    color: #19a8ba;
+    font-family: 'Montserrat' ;
+    
+}
+.middle-container p{
+    width: 40%;
+    text-align: center;
+    line-height: 2rem;
+}
+.skills{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+}
+.skills h2{
+    margin-bottom: 4rem;
+    color: #19a8ba;
+    font-family: 'Montserrat' ;
+    font-size: 2rem;
+    text-decoration: underline;
+    /* text-align: justify; */
+    
+}
+.skills img{
+    width: 16rem;
+    float: left;
+}
+.video-game img{
+    float: right;
+}
+.parent{
+    width: 70%;
+    margin: 50px;
+}
+.text{
+    margin: 2rem 0;
+}
+
+.text h3{
+    color: #19a8ba;
+    font-family: 'Montserrat' ;
+    margin-bottom: 1rem;
+}
+.resume{
+    width: 100%;
+    margin-bottom: 2rem;
+}
+.resume h3{
+    color: #19a8ba;
+    font-family: Montserrat;
+    margin-bottom: 1rem;
+}
+button{
+    /* background-color: #19a8ba; */
+    border: 2px solid #19a8ba;
+    background-color: white;
+    width: 5rem;
+    border-radius: 20px;
+
+}
+button a{
+    text-decoration: none;
+    font-size: large;
+    color: #19a8ba;
+}
+footer{
+    height: 13rem;
+    width: 100%;
+    background-color: #19a8ba;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+footer h3{
+    margin-top: 1rem;
+    font-family: 'Montserrat' ;
+}
+footer ul{
+    display: flex;
+    justify-content: center;
+    
+    /* height: 50%; */
+}
+ul li{
+    list-style: none;
+    margin: 1rem;
+
+}
+li a{
+    text-decoration: none;
+    color:white;
+    font-family: Montserrat;
+}
+h4{
+    font-family: Montserrat;
+}
+@media only screen and (max-width:850px){
+    .skills img{
+       float: none;
+    }
+    
+    
+
+}
+@media (max-width:420px)
+{
+    body{
+        width: 100vh;
+    }
+}
